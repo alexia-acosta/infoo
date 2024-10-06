@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="contenedor-calculadora">
+        <div id="operacion"></div>
+        <input type="button" value="C" class="clase1" onclick="borrarOperacion()">
+        <input type="button" value="E" class="clase1" onclick="borrarUltimoCaracter()">
+        <input type="button" value="^" class="clase" onclick="concatenar('^')">
+        <input type="button" value="√" class="clase" onclick="calcularRaiz()">
+        <br>
+        <input type="button" value="7" class="num" onclick="concatenar('7')">
+        <input type="button" value="8" class="num" onclick="concatenar('8')">
+        <input type="button" value="9" class="num" onclick="concatenar('9')">
+        <input type="button" value="*" class="clase" onclick="concatenar('*')">
+        <br>
+        <input type="button" value="4" class="num" onclick="concatenar('4')">
+        <input type="button" value="5" class="num" onclick="concatenar('5')">
+        <input type="button" value="6" class="num" onclick="concatenar('6')">
+        <input type="button" value="/" class="clase" onclick="concatenar('/')">
+        <br>
+        <input type="button" value="1" class="num" onclick="concatenar('1')">
+        <input type="button" value="2" class="num" onclick="concatenar('2')">
+        <input type="button" value="3" class="num" onclick="concatenar('3')">
+        <input type="button" value="+" class="clase" onclick="concatenar('+')">
+        <br>
+        <input type="button" value="=" class="clase1" onclick="calcular()">
+        <input type="button" value="0" class="num" onclick="concatenar('0')">
+        <input type="button" value="." class="num" onclick="concatenar('.')">
+        <input type="button" value="-" class="clase" onclick="concatenar('-')">
+        <br>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>

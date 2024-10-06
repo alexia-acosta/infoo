@@ -1,0 +1,22 @@
+dado {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #21bb95;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+#resultado {
+    font-weight: bold;
+}
+
+#maximo {
+    width: 50px;
+    height: 20px;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+}

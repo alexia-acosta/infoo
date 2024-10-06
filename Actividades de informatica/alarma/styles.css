@@ -1,0 +1,32 @@
+body {
+    background-color: #ffe6f2;
+    color: #d63384;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+h1 {
+    color: #cc0066;
+    margin-bottom: 30px;
+}
+.card {
+    background-color: #fff0f5;
+    border: none;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-label {
+    color: #cc0066;
+}
+button {
+    background-color: #ff66b3;
+    border-color: #ff66b3;
+    color: white;
+}
+button:hover {
+    background-color: #cc0066;
+    border-color: #cc0066;
+}
+#salida {
+    font-weight: bold;
+}

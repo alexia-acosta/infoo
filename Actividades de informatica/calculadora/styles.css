@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "digital-alexia";
+    src: url("calculator/Calculator.ttf");
+    /* fuente para los digitos */
+}
+
+*{
+    transition: all 0.25s;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "digital-alva:)";
+    background-color: rgb(81, 1, 91);
+}
+
+#contenedor-calculadora{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input[type=button]{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0.5px;
+    border: none;
+    font-family: "digital-alva:)";
+    font-size: 20px;
+}
+
+#operacion{
+    background-color: #D8BFD8;
+    border: solid 2.5px black;
+    border-radius: 6px;
+    margin: 10px;
+    font-size: 150%;
+    height: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.clase1{
+    background-color: #9370DB;
+}
+
+.num{
+    background-color: #6A5ACD;
+}
+
+.clase{
+    background-color: #8A2BE2;
+}
+
